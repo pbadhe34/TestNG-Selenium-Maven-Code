@@ -9,3 +9,5 @@
   set MAVEN_HOME=C:\apache-maven-3.8.5-bin\apache-maven-3.8.5
   set PATH=%PATH%;%MAVEN_HOME%/bin;
   mvn test
+
+ 3. This same can be exeuted as maven job in jenkins
