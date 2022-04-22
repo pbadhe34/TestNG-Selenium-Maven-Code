@@ -1,0 +1,11 @@
+  1. Run as java application from command line from application directory
+ java -cp "./target/test-classes;./lib/*" org.testng.TestNG testng.xml 
+
+
+
+  2.Execute as maven goal 'mvn test' from maven application directory
+
+  From command line
+  set MAVEN_HOME=C:\apache-maven-3.8.5-bin\apache-maven-3.8.5
+  set PATH=%PATH%;%MAVEN_HOME%/bin;
+  mvn test
